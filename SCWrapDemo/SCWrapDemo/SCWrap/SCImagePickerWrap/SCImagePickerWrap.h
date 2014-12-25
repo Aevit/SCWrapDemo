@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "SCActionSheetWrap.h"
 
+/**
+ *  for multi select photos
+ *
+ *  @param anything anything
+ */
 typedef void(^PickMultiImagesBlock)(id anything);
 
 @interface SCImagePickerWrap : NSObject <UIActionSheetDelegate>
