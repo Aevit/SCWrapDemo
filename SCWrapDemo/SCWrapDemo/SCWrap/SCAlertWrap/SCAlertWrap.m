@@ -126,10 +126,10 @@
     
     if (_alertConForiOS8) {
         if (title) {
-            _alertView.title = title;
+            _alertConForiOS8.title = title;
         }
         if (message) {
-            _alertView.message = message;
+            _alertConForiOS8.message = message;
         }
         [[SCCommon getTopPresentedViewController] presentViewController:_alertConForiOS8 animated:YES completion:^{
             ;
